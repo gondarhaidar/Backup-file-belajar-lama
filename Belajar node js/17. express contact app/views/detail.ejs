@@ -1,0 +1,13 @@
+<div class="container">
+    <% if (!detail) { %>
+     <h2>tidak ada data</h2>
+    <% } else { %>
+     
+    <ul>
+        <li>Nama : <%= detail.nama %></li>
+        <li>Email : <%= detail.email %></li>
+        <li>No Ho : <%= detail.noHp %></li>
+    </ul>
+    <% } %>
+    <a href="/contact" class="text-decoration-none badge bg-success">kembali</a>
+</div>
